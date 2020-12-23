@@ -13,7 +13,7 @@ public class Line {
     }
 
     public boolean isPreLine(int point) {
-        if(points.isEmpty()){
+        if (points.isEmpty()) {
             points.add(random.nextBoolean());
         }
         return points.get(point - 1) ? false : random.nextBoolean();

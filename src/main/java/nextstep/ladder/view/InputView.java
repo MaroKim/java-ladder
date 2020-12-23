@@ -16,7 +16,7 @@ public class InputView {
         return sc.nextLine();
     }
 
-    public String inputResults(){
+    public String inputResults() {
         sc = new Scanner(System.in);
         System.out.println(INPUT_RESULTS);
         return sc.nextLine();
@@ -28,7 +28,7 @@ public class InputView {
         return sc.nextInt();
     }
 
-    public String inputResultOfPerson(){
+    public String inputResultOfPerson() {
         sc = new Scanner(System.in);
         System.out.println(INPUT_RESULT_OF_PERSON);
         return sc.nextLine();

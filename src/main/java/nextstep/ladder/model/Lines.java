@@ -12,6 +12,7 @@ public class Lines {
             lines.add(new Line(countOfPerson));
         }
     }
+
     public List<Line> getLines() {
         return Collections.unmodifiableList(lines);
     }

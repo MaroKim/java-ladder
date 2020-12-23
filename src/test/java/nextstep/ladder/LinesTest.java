@@ -10,8 +10,8 @@ public class LinesTest {
 
     @Test
     @DisplayName("Lines 생성 테스트")
-    public void LinesTest(){
-        Lines lines = new Lines(5,4);
+    public void LinesTest() {
+        Lines lines = new Lines(5, 4);
 
         assertThat(lines.getLines().size()).isEqualTo(4);
     }
